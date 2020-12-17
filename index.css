@@ -37,6 +37,11 @@ table{border-collapse: collapse; border-spacing:0;}
 caption, th{text-align: left;}
 a:focus {outline:none;}
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
 
 /* ========================================
 	フロートの解除
@@ -77,8 +82,24 @@ body {
 header{
   width: 960px;
   height: 99px;
-  background-color: pink;
 }
+
+header h1{
+  width: 213px;
+  height: 39px;
+  margin-top: 30px;
+  float: left;
+}
+nav{
+  float: right;
+  margin-top: 56px;
+}
+
+nav ul li{
+  float: left;
+  margin-left: 20px;
+}
+
 
 /* メイン画像 */
 #mainimage{
@@ -105,7 +126,7 @@ header{
   float: left;
 }
 
-#clearfix{
+.clearfix{
   clear:both
 }
 
