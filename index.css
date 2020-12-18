@@ -181,7 +181,44 @@ nav ul li{
 /* フッター */
 footer{
   width: 100%;
-  height: 79px;
-  background-color: blue;
-  margin-top: 30px;
+  height: auto;
+  background-color: #63abd4;
+  margin-top: 50px;
+}
+#footer_inner{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 0;
+}
+#pagetop a{
+  width: 78px;
+  height: 20px;
+  background-color: #63abd4;
+  text-align: center;
+  color:#fff;
+  display: block;
+  text-decoration: none;
+  line-height: 20px;
+  position: absolute;
+  top: -20px;
+  right: 0;
+}
+
+#footer_logo{
+  float: left;
+}
+footer ul{
+  float: right;
+  margin-top: 24px;
+}
+footer ul li{
+  float: left;
+  margin-left: 20px;
+}
+footer ul li a{
+  color:#fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
